@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zLNbKH0+jB8=",
+  "success": true,
+  "projectFilePath": "/home/vanessavilas/Documentos/DevRoadmap/DevRoadmap.csproj",
+  "expectedPackageFiles": [
+    "/home/vanessavilas/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.9/microsoft.aspnetcore.app.internal.assets.10.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
