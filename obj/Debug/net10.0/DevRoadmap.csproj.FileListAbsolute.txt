@@ -71,8 +71,6 @@
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/c8t021o0en-{0}-cyz5k529gx-cyz5k529gx.gz
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/y2985o0lwe-{0}-ne14ti1q68-ne14ti1q68.gz
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/67aaqrr8l4-{0}-ig5xotzpx5-ig5xotzpx5.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-imtdj18jnn-imtdj18jnn.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-imtdj18jnn-imtdj18jnn.gz
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/staticwebassets.build.json
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/staticwebassets.build.json.cache
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/staticwebassets.development.json
@@ -83,3 +81,9 @@
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/DevRoadmap.pdb
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/DevRoadmap.genruntimeconfig.cache
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/ref/DevRoadmap.dll
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/DevRoadmap.sourcelink.json
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/NavStudent.razor.rz.scp.css
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/Universal/Header.razor.rz.scp.css
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/Home/HomeLayout.razor.rz.scp.css
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-ux8srb8bim-ux8srb8bim.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-ux8srb8bim-ux8srb8bim.gz
