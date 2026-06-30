@@ -1,7 +1,8 @@
 @import url("css/variables.css");
 
 html, body {
-    background:var(--bg);color:var(--text);
+    background: var(--bg);
+    color: var(--text);
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "Microsoft.AspNetCore.App.Internal.Assets/10.0.9": {
@@ -45,29 +45,29 @@
     ]
   },
   "packageFolders": {
-    "/home/vanessavilas/.nuget/packages/": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vanessavilas/Documentos/DevRoadmap/DevRoadmap.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Documentos\\LabraSoft\\DevRoadmap\\DevRoadmap.csproj",
       "projectName": "DevRoadmap",
-      "projectPath": "/home/vanessavilas/Documentos/DevRoadmap/DevRoadmap.csproj",
-      "packagesPath": "/home/vanessavilas/.nuget/packages/",
-      "outputPath": "/home/vanessavilas/Documentos/DevRoadmap/obj/",
+      "projectPath": "C:\\Users\\pc\\OneDrive\\Documentos\\LabraSoft\\DevRoadmap\\DevRoadmap.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pc\\OneDrive\\Documentos\\LabraSoft\\DevRoadmap\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/vanessavilas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -82,10 +82,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.AspNetCore.App.Internal.Assets": {
@@ -114,7 +115,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.109/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
