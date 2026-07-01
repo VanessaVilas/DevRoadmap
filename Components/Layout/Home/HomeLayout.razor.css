@@ -48,13 +48,8 @@
 
 .button-primary {
     background: linear-gradient(135deg,var(--gold),var(--gold2));
-    color: #111;
+    color: var(--black);
 }
 .button-primary:hover {
     opacity: 0.9;
-}
-
-main {
-    flex:1;
-    padding:18px 20px;
 }

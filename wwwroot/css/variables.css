@@ -4,6 +4,10 @@
   --bg3:#242424;
   --bg4:#2e2e2e;
 
+  --bgwarm:#1a1408;
+  --bgwarm2:#1a1a0a;
+  --bgwarm3:#1c1a10;
+
   --gold:#c9952a;
   --gold2:#e8b94a;
   --gdim:#5a4010;
@@ -16,6 +20,9 @@
   --border:#252018;
   --b2:#3c3020;
   --b3:#504028;
+
+  --black:#111;
+  --white:#fff;
 
   --green:#52c48a;
   --orange:#F97316;

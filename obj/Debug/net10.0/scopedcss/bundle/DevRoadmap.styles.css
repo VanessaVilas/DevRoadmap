@@ -49,15 +49,10 @@
 
 .button-primary[b-qn6nl124kl] {
     background: linear-gradient(135deg,var(--gold),var(--gold2));
-    color: #111;
+    color: var(--black);
 }
 .button-primary:hover[b-qn6nl124kl] {
     opacity: 0.9;
-}
-
-main[b-qn6nl124kl] {
-    flex:1;
-    padding:18px 20px;
 }
 /* /Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-y9ckzyqlig] {
@@ -424,3 +419,10 @@ main[b-y9ckzyqlig] {
     }
 }
 /* /Components/Layout/Universal/Header.razor.rz.scp.css */
+/* /Components/Pages/Home/Home.razor.rz.scp.css */
+.background[b-qm0iuhe2hm] {
+    min-height: 100vh;
+    padding: 18px 20px;
+    background:linear-gradient(135deg,var(--bgwarm),var(--gdim2));
+    color:var(--gold2);
+}

@@ -35,10 +35,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -78,3 +74,7 @@ build_metadata.AdditionalFiles.CssScope = b-5nw8vivisp
 [C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Layout/Universal/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVW5pdmVyc2FsXEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-6ott1814cc
+
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Pages/Home/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qm0iuhe2hm

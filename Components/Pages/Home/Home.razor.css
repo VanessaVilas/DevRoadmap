@@ -1,0 +1,7 @@
+.background {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(135deg,var(--bgwarm),var(--gdim2));
+    color:var(--gold2);
+}
