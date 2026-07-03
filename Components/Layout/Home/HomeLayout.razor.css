@@ -1,46 +1,57 @@
 .page {
-    position: relative;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 .header {
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding: 0 18px;
-    gap: 11px;
-    background: var(--bg2);
-    border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
     z-index: 50;
+
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+    height: 60px;
+    padding: 0 18px;
+
+    background: var(--bg2);
+    border-bottom: 1px solid var(--bg);
 }
 
-.title {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
+.header-title {
     flex: 1;
+    margin: 0;
+
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .button {
-    padding: 5px 11px;
-    border-radius: 7px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 7px 15px;
+
     border: none;
-    transition: .12s;
+    border-radius: 7px;
+
+    font-size: 18px;
+    font-weight: 600;
+
     white-space: nowrap;
+
+    cursor: pointer;
+
+    transition: .12s;
 }
 
 .button-secondary {
     background: transparent;
     border: 1px solid var(--b2);
     color: var(--t2);
-    font-size: 16px;
 }
 .button-secondary:hover {
     border-color: var(--b3);
@@ -50,8 +61,7 @@
 .button-primary {
     background: linear-gradient(135deg,var(--gold),var(--gold2));
     color: var(--black);
-    font-size: 16px;
 }
 .button-primary:hover {
-    opacity: 0.9;
+    opacity: .9;
 }
