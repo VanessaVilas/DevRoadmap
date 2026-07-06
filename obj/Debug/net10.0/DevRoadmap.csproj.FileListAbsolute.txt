@@ -176,7 +176,8 @@ C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/obj/Debug/net10.0/compresse
 C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-591nf3jjxk-591nf3jjxk.gz
 C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-591nf3jjxk-591nf3jjxk.gz
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Pages/Home/Home.razor.rz.scp.css
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/wcjlokpupo-{0}-qftbb2v1ri-qftbb2v1ri.gz
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/lpd8n6z72l-{0}-u5m0g51yl5-u5m0g51yl5.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-5ff3m7jj20-5ff3m7jj20.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-5ff3m7jj20-5ff3m7jj20.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/wcjlokpupo-{0}-aykiqb0qny-aykiqb0qny.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9nrs1pjhlu-{0}-1r2uyg875k-1r2uyg875k.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-o965pkkngx-o965pkkngx.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-o965pkkngx-o965pkkngx.gz
