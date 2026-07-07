@@ -81,8 +81,6 @@
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/DevRoadmap.genruntimeconfig.cache
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/ref/DevRoadmap.dll
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/DevRoadmap.sourcelink.json
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/NavStudent.razor.rz.scp.css
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/Universal/Header.razor.rz.scp.css
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/Home/HomeLayout.razor.rz.scp.css
 C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/bin/Debug/net10.0/appsettings.Development.json
 C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/bin/Debug/net10.0/appsettings.json
@@ -178,6 +176,9 @@ C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/obj/Debug/net10.0/compresse
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Pages/Home/Home.razor.rz.scp.css
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/lpd8n6z72l-{0}-u5m0g51yl5-u5m0g51yl5.gz
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/wcjlokpupo-{0}-aykiqb0qny-aykiqb0qny.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9nrs1pjhlu-{0}-1r2uyg875k-1r2uyg875k.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-o965pkkngx-o965pkkngx.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-o965pkkngx-o965pkkngx.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/Student/NavStudent.razor.rz.scp.css
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/Student/StudentLayout.razor.rz.scp.css
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Pages/Student/Dashboard/StudentDashboard.razor.rz.scp.css
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9nrs1pjhlu-{0}-65t9i01c6n-65t9i01c6n.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-epdg86a8q7-epdg86a8q7.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-epdg86a8q7-epdg86a8q7.gz

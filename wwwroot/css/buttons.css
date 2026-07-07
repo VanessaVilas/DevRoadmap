@@ -16,6 +16,8 @@
     cursor: pointer;
 
     transition: .12s;
+
+    text-decoration: none;
 }
 
 .button-secondary {

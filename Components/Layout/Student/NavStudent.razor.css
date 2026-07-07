@@ -1,0 +1,95 @@
+.sidebar {
+    width: 215px;
+    background: var(--bg2);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar {
+    width: 3px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--b2);
+    border-radius: 2px;
+}
+
+.sidebar-logo {
+    padding: 15px 13px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border-bottom: 1px solid var(--border);
+}
+
+.sidebar-mark {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: linear-gradient(135deg,var(--gold),var(--gold2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--black);
+    flex-shrink: 0;
+}
+
+.sidebar-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gold2);
+}
+
+.sidebar-sub {
+    font-size: 10px;
+    color: var(--t3);
+    letter-spacing: .05em;
+}
+
+.sidebar-nav {
+    padding: 5px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 9px;
+    cursor: pointer;
+    color: var(--t2);
+    font-size: 14px;
+    font-weight: 500;
+    transition: .12s;
+    white-space: nowrap;
+}
+.sidebar-item:hover {
+    border-radius: 7px;
+    background: var(--bg3);
+    color: var(--text);
+}
+
+.sidebar-div {
+    height: 1px;
+    background: var(--border);
+    margin: 5px 9px;
+}
+
+.sidebar-badge {
+    margin-left: auto;
+    background: var(--orange);
+    color: var(--black);
+    border-radius: 9px;
+    padding: 1px 6px;
+    font-size: 10px;
+    font-weight: 800;
+}
