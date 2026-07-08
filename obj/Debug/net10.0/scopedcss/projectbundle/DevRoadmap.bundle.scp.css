@@ -1,32 +1,6 @@
 /* /Components/Layout/Home/HomeLayout.razor.rz.scp.css */
-.page[b-0sf3vb9mw4] {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.header[b-0sf3vb9mw4] {
-    position: sticky;
-    top: 0;
-    z-index: 50;
-
-    display: flex;
-    align-items: center;
-    gap: 11px;
-
-    height: 60px;
-    padding: 0 18px;
-
-    background: var(--bg2);
-    border-bottom: 1px solid var(--bg);
-}
-
 .header-title[b-0sf3vb9mw4] {
-    flex: 1;
-    margin: 0;
-
     font-size: 24px;
-    font-weight: 700;
 }
 /* /Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-y9ckzyqlig] {
@@ -393,129 +367,219 @@ main[b-y9ckzyqlig] {
 }
 /* /Components/Layout/Student/NavStudent.razor.rz.scp.css */
 .sidebar[b-0jfxh23ha5] {
-    width: 215px;
-    background: var(--bg2);
-    border-right: 1px solid var(--border);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    overflow-y: auto;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+
+    display:flex;
+    flex-direction:column;
+
+    width:225px;
+    height:100vh;
+
+    overflow-y:auto;
+
+    background:var(--bg2);
+    border-right:1px solid var(--border);
 }
 .sidebar[b-0jfxh23ha5]::-webkit-scrollbar {
     width: 3px;
 }
 .sidebar[b-0jfxh23ha5]::-webkit-scrollbar-thumb {
     background: var(--b2);
+
     border-radius: 2px;
 }
 
 .sidebar-logo[b-0jfxh23ha5] {
-    padding: 15px 13px;
     display: flex;
     align-items: center;
+
+    height: 60px;
+
     gap: 9px;
+    padding: 0 13px;
+
     border-bottom: 1px solid var(--border);
 }
 
 .sidebar-mark[b-0jfxh23ha5] {
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-    background: linear-gradient(135deg,var(--gold),var(--gold2));
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 800;
-    font-size: 14px;
-    color: var(--black);
     flex-shrink: 0;
+
+    width: 36px;
+    height: 36px;
+
+    font-size: 16px;
+    font-weight: 1000;
+
+    color: var(--black);
+    background: linear-gradient(135deg, var(--gold), var(--gold2));
+
+    border-radius: 8px;
 }
 
 .sidebar-name[b-0jfxh23ha5] {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
+
     color: var(--gold2);
 }
 
 .sidebar-sub[b-0jfxh23ha5] {
-    font-size: 10px;
-    color: var(--t3);
+    margin-top: -4px;
+
+    font-size: 11px;
     letter-spacing: .05em;
+
+    color: var(--t3);
 }
 
 .sidebar-nav[b-0jfxh23ha5] {
-    padding: 5px 7px;
     display: flex;
     flex-direction: column;
+
     gap: 1px;
+    padding: 5px 7px;
 }
 
 .sidebar-item[b-0jfxh23ha5] {
     display: flex;
     align-items: center;
+
     gap: 9px;
     padding: 8px 9px;
-    cursor: pointer;
-    color: var(--t2);
-    font-size: 14px;
+
+    font-size: 16px;
     font-weight: 500;
-    transition: .12s;
     white-space: nowrap;
+
+    color: var(--t2);
+
+    cursor: pointer;
+    transition: .12s;
 }
 .sidebar-item:hover[b-0jfxh23ha5] {
-    border-radius: 7px;
-    background: var(--bg3);
     color: var(--text);
+    background: var(--bg3);
+
+    border-radius: 7px;
 }
 
-.sidebar-div[b-0jfxh23ha5] {
+.sidebar-divider[b-0jfxh23ha5] {
     height: 1px;
-    background: var(--border);
+
     margin: 5px 9px;
+
+    background: var(--border);
 }
 
 .sidebar-badge[b-0jfxh23ha5] {
     margin-left: auto;
-    background: var(--orange);
-    color: var(--black);
-    border-radius: 9px;
     padding: 1px 6px;
-    font-size: 10px;
+
+    font-size: 11px;
     font-weight: 800;
+
+    color: var(--black);
+    background: var(--orange);
+
+    border-radius: 9px;
 }
 /* /Components/Layout/Student/StudentLayout.razor.rz.scp.css */
-.page[b-3ss85e1847] {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.header[b-3ss85e1847] {
+    margin-left: 225px;
 }
-/* /Components/Pages/Home/Home.razor.rz.scp.css */
-.hero-section[b-3oj701lpxg] {
-    min-height: 92.6vh;
+
+.header-title[b-3ss85e1847] {
+    font-size: 18px;
+}
+
+.header-action[b-3ss85e1847] {
+    position: relative;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    font-size: 18px;
+
+    color: var(--t2);
+    background: var(--bg3);
+    border: 1px solid var(--border);
+
+    border-radius: 8px;
+    cursor: pointer;
+}
+.header-action:hover[b-3ss85e1847] {
+    color: var(--text);
+    border-color: var(--b2);
+}
+
+.notification-dot[b-3ss85e1847] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    width: 6px;
+    height: 6px;
+
+    background: var(--orange);
+
+    border-radius: 50%;
+}
+
+.header-avatar[b-3ss85e1847] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    color: var(--gold2);
+    background: var(--gdim);
+    border: 1px solid var(--gold);
+
+    border-radius: 50%;
+}
+/* /Components/Pages/Home/Home.razor.rz.scp.css */
+.hero-section[b-3oj701lpxg] {
+    display: flex;
     flex-direction: column;
-    background:linear-gradient(135deg,var(--bgwarm),var(--gdim2));
-    color: var(--gold);
+    align-items: center;
+    justify-content: center;
+
+    min-height: 92.6vh;
+
     gap: 8px;
+
+    color: var(--gold);
+    background: linear-gradient(135deg, var(--bgwarm), var(--gdim2));
 }
 
 .hero-title[b-3oj701lpxg] {
-    width:100%;
-    max-width:800px;
+    width: 100%;
+    max-width: 800px;
+
     font-size: 56px;
     font-weight: 700;
     text-align: center;
 }
 
 .hero-description[b-3oj701lpxg] {
-    width:100%;
-    max-width:1000px;
+    width: 100%;
+    max-width: 1000px;
+
     font-size: 20px;
     text-align: center;
 }
@@ -526,12 +590,15 @@ main[b-y9ckzyqlig] {
 
 .small-container[b-3oj701lpxg] {
     padding: 5px 20px;
+
     background: var(--bgwarm);
+
     border-radius: 50px;
 }
 
 .hero-row[b-3oj701lpxg] {
     display: flex;
+
     gap: 11px;
 }
 
@@ -543,12 +610,12 @@ main[b-y9ckzyqlig] {
     padding:12px 0;
 }
 
-.icon[b-3oj701lpxg] {
-    font-size: 20px;
+.feature-item[b-3oj701lpxg] {
+    display: flex;
+    align-items: center;
 }
 
-.icon-button[b-3oj701lpxg] {
-    padding-left: 6px;
-    font-size: 22px;
+.icon-md[b-3oj701lpxg] {
+    margin-right: 4px;
 }
 /* /Components/Pages/Student/Dashboard/StudentDashboard.razor.rz.scp.css */

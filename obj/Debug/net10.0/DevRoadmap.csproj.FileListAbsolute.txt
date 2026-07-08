@@ -180,5 +180,5 @@ C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/obj/Debug/net10.0/compresse
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Layout/Student/StudentLayout.razor.rz.scp.css
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/scopedcss/Components/Pages/Student/Dashboard/StudentDashboard.razor.rz.scp.css
 /home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9nrs1pjhlu-{0}-65t9i01c6n-65t9i01c6n.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-epdg86a8q7-epdg86a8q7.gz
-/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-epdg86a8q7-epdg86a8q7.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/9hekza7t32-{0}-rlkmc0pg1i-rlkmc0pg1i.gz
+/home/vanessavilas/Documentos/DevRoadmap/obj/Debug/net10.0/compressed/f9exwghs2a-{0}-rlkmc0pg1i-rlkmc0pg1i.gz

@@ -1,5 +1,62 @@
-.page[b-3ss85e1847] {
+.header[b-3ss85e1847] {
+    margin-left: 225px;
+}
+
+.header-title[b-3ss85e1847] {
+    font-size: 18px;
+}
+
+.header-action[b-3ss85e1847] {
+    position: relative;
+
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    font-size: 18px;
+
+    color: var(--t2);
+    background: var(--bg3);
+    border: 1px solid var(--border);
+
+    border-radius: 8px;
+    cursor: pointer;
+}
+.header-action:hover[b-3ss85e1847] {
+    color: var(--text);
+    border-color: var(--b2);
+}
+
+.notification-dot[b-3ss85e1847] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    width: 6px;
+    height: 6px;
+
+    background: var(--orange);
+
+    border-radius: 50%;
+}
+
+.header-avatar[b-3ss85e1847] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    color: var(--gold2);
+    background: var(--gdim);
+    border: 1px solid var(--gold);
+
+    border-radius: 50%;
 }
