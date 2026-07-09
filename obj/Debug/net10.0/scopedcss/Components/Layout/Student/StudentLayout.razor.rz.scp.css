@@ -1,5 +1,5 @@
-.header[b-3ss85e1847] {
-    margin-left: 225px;
+.main[b-3ss85e1847] {
+    margin-left: 210px;
 }
 
 .header-title[b-3ss85e1847] {
@@ -16,7 +16,7 @@
     width: 36px;
     height: 36px;
 
-    font-size: 18px;
+    font-size: 19px;
 
     color: var(--t2);
     background: var(--bg3);
@@ -48,10 +48,10 @@
     align-items: center;
     justify-content: center;
 
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
 
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
 
     color: var(--gold2);
