@@ -1,71 +1,160 @@
 circle {
     fill: none;
+
     stroke-width: 5;
 }
 
-.ph {
-    display:flex;
-    align-items:flex-start;
-    justify-content:space-between;
-    padding: 10px 15px;
+.page-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-.pt {
-    font-size:18px;
-    font-weight:700;
+.page-title {
+    font-size: 18px;
+    font-weight: 700;
 }
     
-.ps{
-    font-size:14px;
-    color:var(--t2);
+.page-subtitle {
     margin-top: -18px;
-}
 
-.button {
-    margin-top: 5px;
+    font-size: 14px;
+
+    color: var(--t2);
 }
 
 .next-stop {
-    background:linear-gradient(135deg,var(--gdim2),var(--bgwarm2));
-    border:1px solid var(--gold);
-    border-radius:12px;
-    padding:17px 19px;
-    margin-bottom:14px;
+    position: relative;
+
+    padding: 17px 19px;
+    margin-bottom: 14px;
+
+    background: linear-gradient(135deg, var(--gdim2), var(--bgwarm2));
+    border: 1px solid var(--gold);
+
+    border-radius: 12px;
 }
 .next-stop::before {
-    content:'';
-    position:absolute;
-    top:-28px;
-    right:-28px;
-    width:110px;
-    height:110px;
-    border-radius:50%;
-    background:rgba(201,149,42,.06);
+    position: absolute;
+    top: -28px;
+    right: -28px;
+
+    width: 110px;
+    height: 110px;
+
+    content: "";
+    background: rgba(201, 149, 42, .06);
+
+    border-radius: 50%;
 }
 
-.ns-lbl {font-size:10px;color:var(--gold);text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px}
-.ns-title {font-size:17px;font-weight:700;color:var(--gold2);margin-bottom:3px}
-.ns-sub {font-size:12px;color:var(--t2);margin-bottom:12px}
-.ns-steps {display:flex;flex-direction:column;gap:5px;margin-bottom:13px}
-.ns-step {display:flex;align-items:center;gap:8px;font-size:12px;color:var(--t2)}
-.ns-step i{font-size:14px;color:var(--green)}
-.ns-eta {font-size:11px;color:var(--t3);margin-top:7px}
+.next-stop .button {
+    margin-top: 5px;
+}
 
 .progress-circle {
-    position:absolute;
-    right:18px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
 }
 
-.background {
+.circle-progress {
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+.progress-background {
     stroke: var(--bg4);
 }
 
 .progress {
     stroke: var(--gold);
-    stroke-linecap: round;
 
+    stroke-linecap: round;
     stroke-dasharray: 118.4 150.8;
     stroke-dashoffset: 37.6;
-    transition: stroke-dashoffset .3s;
-    transform: rotate(-90 30 30);
+}
+
+.progress-text {
+    text-anchor: middle;
+    font-size: 15px;
+    font-weight: 700; 
+
+    fill: var(--gold2);
+}
+
+.ns-label {
+    margin-bottom: 5px;
+
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+
+    color: var(--gold);
+}
+
+.ns-title {
+    margin-bottom: 3px;
+
+    font-size: 19px;
+    font-weight: 700;
+
+    color: var(--gold2);
+}
+
+.ns-subtitle {
+    margin-bottom: 12px;
+
+    font-size: 14px;
+
+    color: var(--t2);
+}
+
+.ns-steps {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+    margin-bottom: 13px
+}
+
+.ns-step {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 14px;
+
+    color: var(--t2);
+}
+
+.ns-step i{
+    font-size: 16px;
+
+    color: var(--green);
+}
+
+.ns-eta {
+    margin-top: 7px;
+
+    font-size: 13px;
+
+    color: var(--t3);
+}
+
+.no-active {
+    color: var(--t3);
+}
+
+.no-active i {
+    color: var(--t3);
+}
+
+.icon {
+    font-size: 13px;
+}
+
+.icon-button {
+    font-size: 20px;
 }
