@@ -1,5 +1,6 @@
 @page "/student/dashboard"
 @layout DevRoadmap.Components.Layout.Student.StudentLayout
+@using DevRoadmap.Components.Layout.Global
 
 <PageTitle>Dashboard</PageTitle>
 
@@ -54,5 +55,40 @@
             Continuar agora
             <i class="ti ti-arrow-narrow-right icon-button"/>
         </button>
+    </div>
+
+    <div class="g4">
+        <DashboardCard
+            Title="Progresso Geral"
+            Value="68%"
+            Status="↑ +4% esta semana"
+            CardClass="card-gold"
+            ValueClass="cv-g"
+            StatusClass="cs-up"
+            ShowProgress="true"
+            Progress="68" />
+
+        <DashboardCard
+            Title="Média Geral"
+            Value="8.4"
+            Status="acima da mínima"
+            ValueClass="cv-gr"
+            StatusClass="cs-up" 
+            BorderColor="padding:18px;
+                border-color:rgba(82,196,138,.25);" />
+
+        <DashboardCard
+            Title="Pendências"
+            Value="3"
+            Status="2 avaliações + 1 projeto"
+            ValueClass="cv-o"
+            StatusClass="cs-dn"
+            BorderColor="rgba(249,115,22,.25)" />
+
+        <DashboardCard
+            Title="Certificados"
+            Value="2"
+            Status="1 em andamento"
+            ValueClass="cv-g" />
     </div>
 </div>
