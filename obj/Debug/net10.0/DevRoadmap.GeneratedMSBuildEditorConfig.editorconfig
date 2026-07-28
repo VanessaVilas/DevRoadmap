@@ -8,52 +8,53 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DevRoadmap
 build_property.RootNamespace = DevRoadmap
-build_property.ProjectDir = /home/vanessavilas/Documentos/DevRoadmap/
+build_property.ProjectDir = C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 9.0
+build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/vanessavilas/Documentos/DevRoadmap
+build_property.MSBuildProjectDirectory = C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/Layout/Global/DashboardCard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvR2xvYmFsL0Rhc2hib2FyZENhcmQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-rb1jyh91dw
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Layout/Global/DashboardCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcR2xvYmFsXERhc2hib2FyZENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-icdatwsmm3
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/Layout/Home/HomeLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvSG9tZS9Ib21lTGF5b3V0LnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-0sf3vb9mw4
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Layout/Home/HomeLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcSG9tZVxIb21lTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-qn6nl124kl
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/Layout/Student/NavStudent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvU3R1ZGVudC9OYXZTdHVkZW50LnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-0jfxh23ha5
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Layout/Student/NavStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcU3R1ZGVudFxOYXZTdHVkZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-a9hu4wmkvk
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/Layout/Student/StudentLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvU3R1ZGVudC9TdHVkZW50TGF5b3V0LnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-3ss85e1847
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Layout/Student/StudentLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcU3R1ZGVudFxTdHVkZW50TGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-uuvhlphali
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/Pages/Home/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lL0hvbWUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-3oj701lpxg
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Pages/Home/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qm0iuhe2hm
 
-[/home/vanessavilas/Documentos/DevRoadmap/Components/Pages/Student/Dashboard/StudentDashboard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9TdHVkZW50L0Rhc2hib2FyZC9TdHVkZW50RGFzaGJvYXJkLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-s9vrclcp7i
+[C:/Users/pc/OneDrive/Documentos/LabraSoft/DevRoadmap/Components/Pages/Student/Dashboard/StudentDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdHVkZW50XERhc2hib2FyZFxTdHVkZW50RGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-whgeffe1lq

@@ -1,21 +1,21 @@
-circle[b-s9vrclcp7i] {
+circle[b-whgeffe1lq] {
     fill: none;
 
     stroke-width: 5;
 }
 
-.page-header[b-s9vrclcp7i] {
+.page-header[b-whgeffe1lq] {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
 
-.page-title[b-s9vrclcp7i] {
+.page-title[b-whgeffe1lq] {
     font-size: 18px;
     font-weight: 700;
 }
     
-.page-subtitle[b-s9vrclcp7i] {
+.page-subtitle[b-whgeffe1lq] {
     margin-top: -18px;
 
     font-size: 14px;
@@ -23,7 +23,7 @@ circle[b-s9vrclcp7i] {
     color: var(--t2);
 }
 
-.next-stop[b-s9vrclcp7i] {
+.next-stop[b-whgeffe1lq] {
     position: relative;
 
     padding: 17px 19px;
@@ -34,7 +34,7 @@ circle[b-s9vrclcp7i] {
 
     border-radius: 12px;
 }
-.next-stop[b-s9vrclcp7i]::before {
+.next-stop[b-whgeffe1lq]::before {
     position: absolute;
     top: -28px;
     right: -28px;
@@ -48,26 +48,26 @@ circle[b-s9vrclcp7i] {
     border-radius: 50%;
 }
 
-.next-stop .button[b-s9vrclcp7i] {
+.next-stop .button[b-whgeffe1lq] {
     margin-top: 5px;
 }
 
-.progress-circle[b-s9vrclcp7i] {
+.progress-circle[b-whgeffe1lq] {
     position: absolute;
     top: 0px;
     right: 10px;
 }
 
-.circle-progress[b-s9vrclcp7i] {
+.circle-progress[b-whgeffe1lq] {
     transform: rotate(-90deg);
     transform-origin: center;
 }
 
-.progress-background[b-s9vrclcp7i] {
+.progress-background[b-whgeffe1lq] {
     stroke: var(--bg4);
 }
 
-.progress[b-s9vrclcp7i] {
+.progress[b-whgeffe1lq] {
     stroke: var(--gold);
 
     stroke-linecap: round;
@@ -75,7 +75,7 @@ circle[b-s9vrclcp7i] {
     stroke-dashoffset: 37.6;
 }
 
-.progress-text[b-s9vrclcp7i] {
+.progress-text[b-whgeffe1lq] {
     text-anchor: middle;
     font-size: 15px;
     font-weight: 700; 
@@ -83,7 +83,7 @@ circle[b-s9vrclcp7i] {
     fill: var(--gold2);
 }
 
-.ns-label[b-s9vrclcp7i] {
+.ns-label[b-whgeffe1lq] {
     margin-bottom: 5px;
 
     font-size: 12px;
@@ -93,7 +93,7 @@ circle[b-s9vrclcp7i] {
     color: var(--gold);
 }
 
-.ns-title[b-s9vrclcp7i] {
+.ns-title[b-whgeffe1lq] {
     margin-bottom: 3px;
 
     font-size: 19px;
@@ -102,7 +102,7 @@ circle[b-s9vrclcp7i] {
     color: var(--gold2);
 }
 
-.ns-subtitle[b-s9vrclcp7i] {
+.ns-subtitle[b-whgeffe1lq] {
     margin-bottom: 12px;
 
     font-size: 14px;
@@ -110,7 +110,7 @@ circle[b-s9vrclcp7i] {
     color: var(--t2);
 }
 
-.ns-steps[b-s9vrclcp7i] {
+.ns-steps[b-whgeffe1lq] {
     display: flex;
     flex-direction: column;
 
@@ -118,7 +118,7 @@ circle[b-s9vrclcp7i] {
     margin-bottom: 13px
 }
 
-.ns-step[b-s9vrclcp7i] {
+.ns-step[b-whgeffe1lq] {
     display: flex;
     align-items: center;
 
@@ -129,13 +129,13 @@ circle[b-s9vrclcp7i] {
     color: var(--t2);
 }
 
-.ns-step i[b-s9vrclcp7i]{
+.ns-step i[b-whgeffe1lq]{
     font-size: 16px;
 
     color: var(--green);
 }
 
-.ns-eta[b-s9vrclcp7i] {
+.ns-eta[b-whgeffe1lq] {
     margin-top: 7px;
 
     font-size: 13px;
@@ -143,25 +143,184 @@ circle[b-s9vrclcp7i] {
     color: var(--t3);
 }
 
-.no-active[b-s9vrclcp7i] {
+.no-active[b-whgeffe1lq] {
     color: var(--t3);
 }
 
-.no-active i[b-s9vrclcp7i] {
+.no-active i[b-whgeffe1lq] {
     color: var(--t3);
 }
 
-.icon[b-s9vrclcp7i] {
+.icon[b-whgeffe1lq] {
     font-size: 13px;
 }
 
-.icon-button[b-s9vrclcp7i] {
+.icon-button[b-whgeffe1lq] {
     font-size: 20px;
 }
 
-.g4[b-s9vrclcp7i] {
+.g4[b-whgeffe1lq] {
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:11px;
     margin-bottom:13px;
+}
+
+.card[b-whgeffe1lq] {
+    background:var(--bg2);
+    border:1px solid var(--border);
+    border-radius:var(--r2);
+    padding:15px;
+    box-shadow:0 0 18px rgba(255,170,0,.04);
+    transition:box-shadow .2s,border-color .2s
+}
+
+.card:hover[b-whgeffe1lq] {
+    box-shadow:0 0 28px rgba(255,170,0,.09)
+}
+
+.st[b-whgeffe1lq] {
+    font-size:14px;
+    font-weight:600;
+    color:var(--t2);
+    margin-bottom:11px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+.dashboard-grid[b-whgeffe1lq] {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 11px;
+    margin-bottom: 13px;
+}
+
+.progress-chart[b-whgeffe1lq] {
+    width: 100%;
+    height: 75px;
+}
+
+.progress-line[b-whgeffe1lq] {
+    fill: none;
+    stroke: #c9952a;
+    stroke-width: 2.5;
+}
+
+.progress-point[b-whgeffe1lq] {
+    fill: #e8b94a;
+}
+
+.stats-grid[b-whgeffe1lq] {
+    display: flex;
+    gap: 7px;
+    margin-top: 11px;
+}
+
+.stat-card[b-whgeffe1lq] {
+    flex: 1;
+    background: var(--bg3);
+    border-radius: 7px;
+    padding: 8px;
+    text-align: center;
+}
+
+.stat-title[b-whgeffe1lq] {
+    font-size: 12px;
+    color: var(--t2);
+}
+
+.stat-value[b-whgeffe1lq] {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.stat-value-gold[b-whgeffe1lq] {
+    color: var(--gold2);
+}
+
+.skills-list[b-whgeffe1lq] {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.skill-item[b-whgeffe1lq] {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-header[b-whgeffe1lq] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.skill-info[b-whgeffe1lq] {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.skill-icon[b-whgeffe1lq] {
+    font-size: 14px;
+}
+
+.skill-name[b-whgeffe1lq] {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.skill-value[b-whgeffe1lq] {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.skill-bar[b-whgeffe1lq] {
+    height: 6px;
+    background: var(--bg4);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.skill-fill[b-whgeffe1lq] {
+    height: 100%;
+    border-radius: 3px;
+}
+
+.skill-blue[b-whgeffe1lq] {
+    color: var(--blue);
+}
+
+.skill-green[b-whgeffe1lq] {
+    color: var(--green);
+}
+
+.skill-gold[b-whgeffe1lq] {
+    color: var(--gold2);
+}
+
+.skill-orange[b-whgeffe1lq] {
+    color: var(--orange);
+}
+
+.skill-blue-bg[b-whgeffe1lq] {
+    background: var(--blue);
+    opacity: .85;
+}
+
+.skill-green-bg[b-whgeffe1lq] {
+    background: var(--green);
+    opacity: .85;
+}
+
+.skill-gold-bg[b-whgeffe1lq] {
+    background: linear-gradient(90deg, var(--gold), var(--gold2));
+}
+
+.skill-orange-bg[b-whgeffe1lq] {
+    background: var(--orange);
+    opacity: .85;
 }

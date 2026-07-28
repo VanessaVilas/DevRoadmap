@@ -1,13 +1,13 @@
-.main[b-3ss85e1847] {
+.main[b-uuvhlphali] {
     margin-left: 210px;
     padding:18px 20px
 }
 
-.header-title[b-3ss85e1847] {
+.header-title[b-uuvhlphali] {
     font-size: 18px;
 }
 
-.header-action[b-3ss85e1847] {
+.header-action[b-uuvhlphali] {
     position: relative;
 
     display: flex;
@@ -26,12 +26,12 @@
     border-radius: 8px;
     cursor: pointer;
 }
-.header-action:hover[b-3ss85e1847] {
+.header-action:hover[b-uuvhlphali] {
     color: var(--text);
     border-color: var(--b2);
 }
 
-.notification-dot[b-3ss85e1847] {
+.notification-dot[b-uuvhlphali] {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -44,7 +44,7 @@
     border-radius: 50%;
 }
 
-.header-avatar[b-3ss85e1847] {
+.header-avatar[b-uuvhlphali] {
     display: flex;
     align-items: center;
     justify-content: center;
