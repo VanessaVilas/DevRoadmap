@@ -166,16 +166,16 @@ circle {
     margin-bottom:13px;
 }
 
-.card {
+.dashboard-card {
     background:var(--bg2);
     border:1px solid var(--border);
-    border-radius:var(--r2);
+    border-radius:12px;
     padding:15px;
     box-shadow:0 0 18px rgba(255,170,0,.04);
     transition:box-shadow .2s,border-color .2s
 }
 
-.card:hover {
+.dashboard-card:hover {
     box-shadow:0 0 28px rgba(255,170,0,.09)
 }
 
@@ -271,6 +271,7 @@ circle {
 .skill-name {
     font-size: 12px;
     font-weight: 600;
+    color: var(--text);
 }
 
 .skill-value {
@@ -323,4 +324,169 @@ circle {
 .skill-orange-bg {
     background: var(--orange);
     opacity: .85;
+}
+
+.g2 {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:11px;
+    margin-bottom:13px
+}
+
+.dashboard-row {
+    display:flex;
+    align-items:center;
+    gap:9px;
+    padding:9px 0;
+    border-bottom:1px solid var(--border)
+}
+.dashboard-row:last-child {
+    border-bottom:none
+}
+
+.bar {
+    height:5px;
+    background:var(--bg4);
+    border-radius:3px;
+    overflow:hidden;
+    margin-top:5px
+}
+
+.barf {
+    height:100%;
+    background:linear-gradient(90deg,var(--gold),var(--gold2));
+    border-radius:3px
+}
+
+.dashboard-tag {
+    display:inline-flex;
+    align-items:center;
+    padding:2px 7px;
+    border-radius:5px;
+    font-size:13px;
+    font-weight:600
+}
+
+.ta {
+    background:rgba(249,115,22,.14);
+    color:var(--orange)
+}
+
+.trail-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.trail-react {
+    background: rgba(79,140,255,.12);
+}
+
+.trail-node {
+    background: rgba(82,196,138,.12);
+}
+
+.trail-db {
+    background: rgba(201,149,42,.12);
+}
+
+.trail-content {
+    flex: 1;
+}
+
+.trail-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.trail-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.trail-percent {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gold2);
+}
+
+.trail-next {
+    margin-top: 4px;
+    font-size: 13px;
+    color: var(--blue);
+}
+
+.trail-arrow {
+    font-size: 10px;
+}
+
+.icon-blue {
+    font-size: 19px;
+    color: var(--blue);
+}
+
+.icon-green {
+    font-size: 19px;
+    color: var(--green);
+}
+
+.icon-gold {
+    font-size: 19px;
+    color: var(--gold2);
+}
+
+.pending-count {
+    font-size: 12px;
+}
+
+.pending-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.dot-orange {
+    background: var(--orange);
+}
+
+.dot-gold {
+    background: var(--gold2);
+}
+
+.dot-green {
+    background: var(--green);
+}
+
+.pending-content {
+    flex: 1;
+}
+
+.pending-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.pending-info {
+    margin-top: 5px;
+    font-size: 13px;
+    color: var(--t2);
+}
+
+.pending-orange {
+    color: var(--orange);
+}
+
+.pending-blue {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.pending-clock {
+    font-size: 13px;
 }

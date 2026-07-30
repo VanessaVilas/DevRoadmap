@@ -88,5 +88,5 @@ C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\obj\Debug\net10.0\refint\De
 C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\obj\Debug\net10.0\DevRoadmap.pdb
 C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\obj\Debug\net10.0\DevRoadmap.genruntimeconfig.cache
 C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\obj\Debug\net10.0\ref\DevRoadmap.dll
-C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\obj\Debug\net10.0\compressed\9hekza7t32-{0}-z86py1tomq-z86py1tomq.gz
-C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\obj\Debug\net10.0\compressed\f9exwghs2a-{0}-z86py1tomq-z86py1tomq.gz
+C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\obj\Debug\net10.0\compressed\9hekza7t32-{0}-4hw407vyb7-4hw407vyb7.gz
+C:\Users\pc\OneDrive\Documentos\LabraSoft\DevRoadmap\obj\Debug\net10.0\compressed\f9exwghs2a-{0}-4hw407vyb7-4hw407vyb7.gz
