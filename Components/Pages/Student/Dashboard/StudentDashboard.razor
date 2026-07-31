@@ -1,6 +1,7 @@
 @page "/student/dashboard"
 @layout DevRoadmap.Components.Layout.Student.StudentLayout
 @using DevRoadmap.Components.Layout.Global
+@using DevRoadmap.Components.Layout.Student.Dashboard
 
 <PageTitle>Dashboard</PageTitle>
 
@@ -14,50 +15,9 @@
         <button class="button button-gold button-small">+ Nova Trilha</button>
     </div>
 
-    <div class="next-stop">
-        <div class="progress-circle">
-            <svg width="75" height="75">
-                <g class="circle-progress">
-                    <circle class="progress-background" cx="30" cy="30" r="24"/>
-                    <circle class="progress" cx="30" cy="30" r="24"/>
-                </g>
-                <text class="progress-text" x="30" y="50">78%</text>
-            </svg>
-        </div>
-        
-        <div class="ns-label">
-            <i class="ti ti-pinned icon"/>
-            Próxima parada
-        </div>
+    <NextStop/>
 
-        <p class="ns-title">Hooks Avançados</p>
-
-        <p class="ns-subtitle">React & Ecossistema · Módulo 3 de 8</p>
-
-        <div class="ns-steps">
-            <div class="ns-step">
-                <i class="ti ti-circle-check"/>
-                Exercício: Refatorar com useMemo
-            </div>
-            
-            <div class="ns-step">
-                <i class="ti ti-circle-check"/>
-                Projeto: Context API com useReducer
-            </div>
-        
-            <div class="ns-step no-active">
-                <i class="ti ti-lock no-active"/>
-                Avaliação do módulo (bloqueada)
-            </div>
-        </div>
-
-        <button class="button button-gold">
-            Continuar agora
-            <i class="ti ti-arrow-narrow-right icon-button"/>
-        </button>
-    </div>
-
-    <div class="g4">
+    <div class="grid grid-4">
         <DashboardCard
             Title="Progresso Geral"
             Value="68%"
@@ -92,241 +52,13 @@
             ValueClass="cv-g" />
     </div>
 
-    <div style="display:grid;grid-template-columns:2fr 1fr;gap:11px;margin-bottom:13px">
-        <div class="dashboard-card">
-            <div class="st">Evolução do Progresso — últimas 8 semanas</div>
-
-            <svg class="progress-chart" viewBox="0 0 400 75" preserveAspectRatio="none">
-                <defs>
-                    <linearGradient id="lg1" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="0%" stop-color="#c9952a" stop-opacity=".3" />
-                        <stop offset="100%" stop-color="#c9952a" stop-opacity="0" />
-                    </linearGradient>
-                </defs>
-
-                <path d="M0,68 C50,64 90,56 140,46 S200,32 250,22 S320,12 380,5 L400,4 L400,75 L0,75Z"
-                    fill="url(#lg1)" />
-
-                <path d="M0,68 C50,64 90,56 140,46 S200,32 250,22 S320,12 380,5 L400,4"
-                    class="progress-line" />
-            </svg>
-
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-title">Avaliações</div>
-                    <div class="stat-value">12 / 15</div>
-                </div>
-
-                <div class="stat-card">
-                    <div class="stat-title">Projetos</div>
-                    <div class="stat-value">4 / 6</div>
-                </div>
-
-                <div class="stat-card">
-                    <div class="stat-title">Média</div>
-                    <div class="stat-value stat-value-gold">8.4</div>
-                </div>
-
-                <div class="stat-card">
-                    <div class="stat-title">Habilidades</div>
-                    <div class="stat-value">40</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="dashboard-card">
-            <div class="st">Habilidades por Área</div>
-
-            <div class="skills-list">
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <div class="skill-info">
-                            <i class="ti ti-brand-react skill-icon skill-blue"></i>
-                            <span class="skill-name">Front-End</span>
-                        </div>
-                        <span class="skill-value skill-blue">18 · 75%</span>
-                    </div>
-
-                    <div class="skill-bar">
-                        <div class="skill-fill skill-blue-bg" style="width:75%"></div>
-                    </div>
-                </div>
-
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <div class="skill-info">
-                            <i class="ti ti-brand-nodejs skill-icon skill-green"></i>
-                            <span class="skill-name">Back-End</span>
-                        </div>
-                        <span class="skill-value skill-green">12 · 55%</span>
-                    </div>
-
-                    <div class="skill-bar">
-                        <div class="skill-fill skill-green-bg" style="width:55%"></div>
-                    </div>
-                </div>
-
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <div class="skill-info">
-                            <i class="ti ti-database skill-icon skill-gold"></i>
-                            <span class="skill-name">Banco de Dados</span>
-                        </div>
-                        <span class="skill-value skill-gold">6 · 40%</span>
-                    </div>
-
-                    <div class="skill-bar">
-                        <div class="skill-fill skill-gold-bg" style="width:40%"></div>
-                    </div>
-                </div>
-
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <div class="skill-info">
-                            <i class="ti ti-brand-docker skill-icon skill-orange"></i>
-                            <span class="skill-name">DevOps</span>
-                        </div>
-                        <span class="skill-value skill-orange">4 · 22%</span>
-                    </div>
-
-                    <div class="skill-bar">
-                        <div class="skill-fill skill-orange-bg" style="width:22%"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="grid grid-3">
+        <EvolutionProgress/>
+        <SkillsAcquired/>
     </div>
 
-    <div class="g2">
-        <div class="dashboard-card">
-            <div class="st">
-                Trilhas em Andamento
-                <a class="pending-blue">Ver todas →</a>
-            </div>
-
-            <div class="dashboard-row">
-                <div class="trail-icon trail-react">
-                    <i class="ti ti-brand-react icon-blue"></i>
-                </div>
-
-                <div class="trail-content">
-                    <div class="trail-header">
-                        <span class="trail-title">React & Ecossistema</span>
-                        <span class="trail-percent">78%</span>
-                    </div>
-
-                    <div class="bar">
-                        <div class="barf" style="width:78%"></div>
-                    </div>
-
-                    <div class="trail-next">
-                        <i class="ti ti-arrow-right trail-arrow"></i>
-                        Próximo: Hooks Avançados
-                    </div>
-                </div>
-            </div>
-
-            <div class="dashboard-row">
-                <div class="trail-icon trail-node">
-                    <i class="ti ti-brand-nodejs icon-green"></i>
-                </div>
-
-                <div class="trail-content">
-                    <div class="trail-header">
-                        <span class="trail-title">Node.js & APIs REST</span>
-                        <span class="trail-percent">45%</span>
-                    </div>
-
-                    <div class="bar">
-                        <div class="barf" style="width:45%"></div>
-                    </div>
-
-                    <div class="trail-next">
-                        <i class="ti ti-arrow-right trail-arrow"></i>
-                        Próximo: Autenticação JWT
-                    </div>
-                </div>
-            </div>
-
-            <div class="dashboard-row">
-                <div class="trail-icon trail-db">
-                    <i class="ti ti-database icon-gold"></i>
-                </div>
-
-                <div class="trail-content">
-                    <div class="trail-header">
-                        <span class="trail-title">PostgreSQL Fundamentos</span>
-                        <span class="trail-percent">32%</span>
-                    </div>
-
-                    <div class="bar">
-                        <div class="barf" style="width:32%"></div>
-                    </div>
-
-                    <div class="trail-next">
-                        <i class="ti ti-arrow-right trail-arrow"></i>
-                        Próximo: SQL Joins
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="dashboard-card">
-            <div class="st">
-                Pendências
-                <span class="dashboard-tag ta pending-count">3</span>
-            </div>
-
-            <div class="dashboard-row">
-                <div class="pending-dot dot-orange"></div>
-
-                <div class="pending-content">
-                    <div class="pending-title">Avaliação: SQL</div>
-
-                    <div class="pending-info pending-orange">
-                        <i class="ti ti-clock pending-clock"></i>
-                        Vence hoje
-                    </div>
-                </div>
-
-                <button class="button button-gold button-small">
-                    Fazer
-                </button>
-            </div>
-
-            <div class="dashboard-row">
-                <div class="pending-dot dot-gold"></div>
-
-                <div class="pending-content">
-                    <div class="pending-title">Quiz: Hooks do React</div>
-
-                    <div class="pending-info">
-                        <i class="ti ti-clock pending-clock"></i>
-                        Vence em 5 dias
-                    </div>
-                </div>
-
-                <button class="button button-outline button-small">
-                    Fazer
-                </button>
-            </div>
-
-            <div class="dashboard-row">
-                <div class="pending-dot dot-green"></div>
-
-                <div class="pending-content">
-                    <div class="pending-title">Projeto: API RESTful</div>
-
-                    <div class="pending-info">
-                        <i class="ti ti-clock pending-clock"></i>
-                        Vence em 7 dias
-                    </div>
-                </div>
-
-                <button class="button button-outline button-small">
-                    Enviar
-                </button>
-            </div>
-        </div>
+    <div class="grid grid-2">
+        <OngoingTracks/>
+        <Pendency/>
     </div>
 </div>

@@ -1,0 +1,134 @@
+circle[b-3jhv3p0y4e] {
+    fill: none;
+
+    stroke-width: 5;
+}
+
+.next-stop[b-3jhv3p0y4e] {
+    position: relative;
+
+    padding: 17px 19px;
+    margin-bottom: 14px;
+
+    background: linear-gradient(135deg, var(--gdim2), var(--bgwarm2));
+    border: 1px solid var(--gold);
+
+    border-radius: 12px;
+}
+
+.next-stop[b-3jhv3p0y4e]::before {
+    position: absolute;
+    top: -28px;
+    right: -28px;
+
+    width: 110px;
+    height: 110px;
+
+    content: "";
+    background: rgba(201, 149, 42, .06);
+
+    border-radius: 50%;
+}
+
+.next-stop .button[b-3jhv3p0y4e] {
+    margin-top: 5px;
+}
+
+.progress-circle[b-3jhv3p0y4e] {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.circle-progress[b-3jhv3p0y4e] {
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+.progress-circle-background[b-3jhv3p0y4e] {
+    stroke: var(--bg4);
+}
+
+.progress-circle-bar[b-3jhv3p0y4e] {
+    stroke: var(--gold);
+
+    stroke-linecap: round;
+    stroke-dasharray: 118.4 150.8;
+    stroke-dashoffset: 37.6;
+}
+
+.progress-text[b-3jhv3p0y4e] {
+    font-size: 15px;
+    font-weight: 700;
+    text-anchor: middle;
+
+    fill: var(--gold2);
+}
+
+.ns-label[b-3jhv3p0y4e] {
+    margin-bottom: 5px;
+
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+
+    color: var(--gold);
+}
+
+.ns-label i[b-3jhv3p0y4e] {
+    font-size: 13px;
+}
+
+.ns-title[b-3jhv3p0y4e] {
+    margin-bottom: 3px;
+
+    font-size: 19px;
+    font-weight: 700;
+
+    color: var(--gold2);
+}
+
+.ns-subtitle[b-3jhv3p0y4e] {
+    margin-bottom: 12px;
+
+    font-size: 14px;
+
+    color: var(--t2);
+}
+
+.ns-steps[b-3jhv3p0y4e] {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+    margin-bottom: 13px;
+}
+
+.ns-step[b-3jhv3p0y4e] {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 14px;
+
+    color: var(--t2);
+}
+
+.ns-step i[b-3jhv3p0y4e] {
+    font-size: 16px;
+
+    color: var(--green);
+}
+
+.is-locked[b-3jhv3p0y4e] {
+    color: var(--t3);
+}
+
+.is-locked i[b-3jhv3p0y4e] {
+    color: var(--t3);
+}
+
+.icon-button[b-3jhv3p0y4e] {
+    font-size: 20px;
+}

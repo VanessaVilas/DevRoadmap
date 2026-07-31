@@ -1,0 +1,71 @@
+.dashboard-card[b-7e9mkfk2ay] {
+    padding: 15px;
+
+    background: var(--bg2);
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(255, 170, 0, .04);
+    transition: box-shadow .2s, border-color .2s;
+}
+
+.dashboard-card:hover[b-7e9mkfk2ay] {
+    box-shadow: 0 0 28px rgba(255, 170, 0, .09);
+}
+
+.card-title[b-7e9mkfk2ay] {
+    margin-bottom: 11px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: var(--t2);
+}
+
+.progress-chart[b-7e9mkfk2ay] {
+    width: 100%;
+    height: 75px;
+}
+
+.progress-line[b-7e9mkfk2ay] {
+    fill: none;
+    stroke: var(--gold);
+
+    stroke-width: 2.5;
+}
+
+.stats-grid[b-7e9mkfk2ay] {
+    display: flex;
+
+    gap: 7px;
+    margin-top: 11px;
+}
+
+.stat-card[b-7e9mkfk2ay] {
+    flex: 1;
+
+    padding: 8px;
+
+    text-align: center;
+
+    background: var(--bg3);
+
+    border-radius: 7px;
+}
+
+.stat-title[b-7e9mkfk2ay] {
+    font-size: 12px;
+
+    color: var(--t2);
+}
+
+.stat-value[b-7e9mkfk2ay] {
+    font-size: 16px;
+    font-weight: 700;
+
+    color: var(--text);
+}
+
+.stat-value-gold[b-7e9mkfk2ay] {
+    color: var(--gold2);
+}

@@ -1,0 +1,141 @@
+.dashboard-card[b-48c3raqk6z] {
+    padding: 15px;
+
+    background: var(--bg2);
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(255, 170, 0, .04);
+    transition: box-shadow .2s, border-color .2s;
+}
+
+.dashboard-card:hover[b-48c3raqk6z] {
+    box-shadow: 0 0 28px rgba(255, 170, 0, .09);
+}
+
+.card-header[b-48c3raqk6z] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 11px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: var(--t2);
+}
+
+.dashboard-row[b-48c3raqk6z] {
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+    padding: 9px 0;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.dashboard-row:last-child[b-48c3raqk6z] {
+    border-bottom: none;
+}
+
+.trail-icon[b-48c3raqk6z] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 32px;
+    height: 32px;
+
+    border-radius: 8px;
+}
+
+.trail-content[b-48c3raqk6z] {
+    flex: 1;
+}
+
+.trail-header[b-48c3raqk6z] {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 3px;
+}
+
+.trail-title[b-48c3raqk6z] {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.trail-percent[b-48c3raqk6z] {
+    font-size: 14px;
+    font-weight: 700;
+
+    color: var(--gold2);
+}
+
+.progress-bar[b-48c3raqk6z] {
+    height: 5px;
+
+    margin-top: 5px;
+    overflow: hidden;
+
+    background: var(--bg4);
+
+    border-radius: 3px;
+}
+
+.progress-fill[b-48c3raqk6z] {
+    height: 100%;
+
+    background: linear-gradient(90deg, var(--gold), var(--gold2));
+
+    border-radius: 3px;
+}
+
+.trail-next[b-48c3raqk6z] {
+    margin-top: 4px;
+
+    font-size: 13px;
+
+    color: var(--blue);
+}
+
+.trail-arrow[b-48c3raqk6z] {
+    font-size: 10px;
+}
+
+.trail-icon-blue[b-48c3raqk6z] {
+    background: rgba(79, 140, 255, .12);
+}
+
+.trail-icon-green[b-48c3raqk6z] {
+    background: rgba(82, 196, 138, .12);
+}
+
+.trail-icon-gold[b-48c3raqk6z] {
+    background: rgba(201, 149, 42, .12);
+}
+
+.trail-icon i[b-48c3raqk6z] {
+    font-size: 19px;
+}
+
+.icon-blue[b-48c3raqk6z] {
+    color: var(--blue);
+}
+
+.icon-green[b-48c3raqk6z] {
+    color: var(--green);
+}
+
+.icon-gold[b-48c3raqk6z] {
+    color: var(--gold2);
+}
+
+.link-blue[b-48c3raqk6z] {
+    text-decoration: none;
+
+    color: var(--blue);
+}
